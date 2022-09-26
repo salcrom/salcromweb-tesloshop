@@ -12,7 +12,7 @@ import { CartList, OrderSummary } from "components/cart"
 import { dbOrders } from 'database';
 import { IOrder } from 'interfaces';
 import { countries } from 'utils';
-import { tesloApi } from 'api';
+import { tesloApi } from 'axios-api';
 
 
 export type OrderResponseBody = {

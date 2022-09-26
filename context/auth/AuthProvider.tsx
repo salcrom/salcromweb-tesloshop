@@ -8,7 +8,7 @@ import { Email } from '@mui/icons-material';
 
 import { AuthContext, authReducer } from './';
 import { IUser } from 'interfaces';
-import { tesloApi } from 'api';
+import { tesloApi } from 'axios-api';
 
 export interface AuthState {
     isLoggedIn: boolean;

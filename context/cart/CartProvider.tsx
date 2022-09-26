@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import { ICartProduct, IOrder, ShippingAddress } from '../../interfaces';
 import { CartContext, cartReducer } from './';
-import { tesloApi } from '../../api';
+import { tesloApi } from '../../axios-api';
 
 
 export interface CartState {

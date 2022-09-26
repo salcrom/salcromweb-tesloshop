@@ -10,7 +10,7 @@ import { Box, Button, capitalize, Card, CardActions, CardMedia, Checkbox, Chip, 
 import { AdminLayout } from '../../../components/layouts'
 import { IProduct } from '../../../interfaces';
 import { dbProducts } from '../../../database';
-import { tesloApi } from '../../../api';
+import { tesloApi } from '../../../axios-api';
 import { Product } from '../../../models';
 
 
